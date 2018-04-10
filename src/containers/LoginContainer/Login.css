@@ -1,0 +1,23 @@
+.background-image {
+    -webkit-background-size: cover;
+    background: url("../../assets/image/sign-up-background.png") center center;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+
+.login-section {
+    height: 100vh;
+    min-height: 500px;
+    max-width: 100vw;
+}
+
+.login-section-right {
+    height: 100%;
+    padding: 0;
+}
+
+.login-section-left {
+    height: 100%;
+    background: #fafafa;
+}
