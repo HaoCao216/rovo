@@ -1,0 +1,119 @@
+.pt-menu{
+    min-width:140px !important;
+}
+
+.pt-popover-arrow{
+    left: 100px !important;
+}
+
+.Navbar{
+    height: 60px;
+    padding: 5px 15px;
+    color: #ffffff !important;
+    background-color: #06bebd !important;
+    background-color: var(--turquoise-blue);
+}
+
+.AccountButton{
+    position: relative;
+    width: max-content;
+    min-width: 122px;
+    border-radius: 18px;
+    padding: 2px 0px;
+}
+
+.AccountButton::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    border-radius: 18px;
+    height: 100%;
+    background: #000000;
+    opacity: 0.05;
+}
+
+.AccountButton .DropdownIcon{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.AccountButton img{
+    border-radius: 50%;
+    margin-left: 4px;
+}
+
+.AccountName{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.pt-transition-container{
+    position: absolute !important;
+    top: 59px !important;
+    left: calc(100% - 148px) !important;
+    transform: none !important;
+}
+
+#menu{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    height: calc(100vh);
+    width: 220px;
+    background-color: white;
+    transform: translateX(-100%) ;
+    transition: transform 300ms;
+    color: #667190;
+}
+
+#menu ul{
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: left;
+    color: #667190;
+    padding: 18px 20px;
+    margin: 0px;
+}
+
+#menu ul:hover{
+    background-color: #fafafa !important;
+    background-color: var(--white);
+    cursor: pointer;
+    border-left: 4px solid #06bebd;
+    color: #06bebd;
+}
+
+#menu ul:hover img{
+    margin: 0px 20px 0px 6px;
+}
+
+#menu ul img{
+    margin: 0px 20px 0px 10px;
+    width: 17px;
+}
+
+#menu ul .menu-name{
+    vertical-align: text-top;
+}
+
+.isopen{
+    transform: translateX(0px)!important;
+    box-shadow: 5px 0 100px 0 rgba(0, 0, 0, 0.1);
+}
+
+.side-nav-logo{
+    height: 90px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}

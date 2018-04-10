@@ -1,14 +1,9 @@
-.btn-sign-up {
+.btn-login-fb {
     color: white !important;
     border-radius: 4px;
-    background-color: #06bebd !important;
+    background-color: #34589d !important;
     background-color: var(--turquoise-blue);
     background-image: none !important;
     border: none !important;
-}
-
-.pt-button{
-    background: #06bebd none;
-    border: none;
-    color: white;
+    margin: 7px 0px;
 }

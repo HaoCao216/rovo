@@ -6,7 +6,7 @@ import logo from '../../assets/image/logo.png'
 
 const SignUp = (props) => {
   return (
-    <div style={{width: '290px', paddingTop: '138px', margin: 'auto'}}>
+    <div style={{width: '290px', paddingTop: '100px', margin: 'auto'}}>
       <div style={{width: '100%', marginBottom: '24px', fontSize: '2em'}}>
         <span><img src={logo} width="100"/></span>
         <span>for Partners</span>
@@ -17,8 +17,7 @@ const SignUp = (props) => {
       <FormGroup>
         <InputBox placeholder="Email"/>
         <InputBox placeholder="Password"/>
-        <InputBox placeholder="Confirm password"/>
-        <SignUpBtn text="Sign Up"/>
+        <SignUpBtn text="Sign In"/>
       </FormGroup>
     </div>
   )
