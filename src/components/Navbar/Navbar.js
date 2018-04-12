@@ -4,6 +4,53 @@ import './Navbar.css'
 import logonavbar from '../../assets/image/logo-navbar.png'
 import avt from '../../assets/image/maxresdefault.jpg'
 
+class MenuLinks extends React.Component {
+  constructor(props) {
+    super(props);
+    // Any number of links can be added here
+    this.state = {
+      links: [{
+        text: 'ANALYTICS',
+        link: '',
+        icon: '../../assets/image/menu1.svg'
+      }, {
+        text: 'ABOUT',
+        link: '',
+        icon: '../../assets/image/menu2.jpg'
+      }, {
+        text: 'VENUES',
+        link: '',
+        icon: '../../assets/image/menu3.svg'
+      },{
+        text: 'POSTS',
+        link: '',
+        icon: '../../assets/image/menu4.jpg'
+      },{
+        text: 'RATINGS & REVIEWS',
+        link: '',
+        icon: '../../assets/image/menu5.jpg'
+      },{
+        text: 'DASHBOARD',
+        link: '',
+        icon: '../../assets/image/menu6.jpg'
+      }, ]
+    }
+  }
+  render() {
+    let links = this.state.links.map((link) => 
+    <ul>
+      <span><img src={link.icon}/></span>
+      <span className="menu-name">{link.text}</span>
+    </ul>);
+
+    return (
+        <div>
+          { links }
+        </div>
+    )
+  }
+}
+
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -41,7 +88,7 @@ class Header extends React.Component {
     });
   }
   render() {
-
+    let menuStatus = this.state.isOpen ? 'isopen' : '';
     return (
       <div>
         <Navbar className="Navbar">
@@ -72,30 +119,7 @@ class Header extends React.Component {
             <div className="side-nav-logo">
               Hello
             </div>
-            <ul>
-              <span><img src={require('../../assets/image/menu1.svg')}/></span>
-              <span className="menu-name">Analytics</span>
-            </ul>
-            <ul>
-              <span><img src={require('../../assets/image/menu2.jpg')}/></span>
-              <span className="menu-name">About</span>
-            </ul>
-            <ul>
-              <span><img src={require('../../assets/image/menu3.svg')}/></span>
-              <span className="menu-name">Venues</span>
-            </ul>
-            <ul>
-              <span><img src={require('../../assets/image/menu4.jpg')}/></span> 
-              <span className="menu-name">Post</span>
-            </ul>
-            <ul>
-              <span><img src={require('../../assets/image/menu5.svg')}/></span>
-              <span className="menu-name">Ratings & Reviews</span>
-            </ul>
-            <ul>
-              <span><img src={require('../../assets/image/menu6.svg')}/></span>
-              <span className="menu-name">Dashboard</span>
-            </ul>
+            <MenuLinks menuStatus={ menuStatus }/>
           </div>
         </Navbar>
       </div>
