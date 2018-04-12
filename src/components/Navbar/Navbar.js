@@ -12,27 +12,27 @@ class MenuLinks extends React.Component {
       links: [{
         text: 'ANALYTICS',
         link: '',
-        icon: '../../assets/image/menu1.svg'
+        icon: '/assets/image/menu1.svg'
       }, {
         text: 'ABOUT',
         link: '',
-        icon: '../../assets/image/menu2.jpg'
+        icon: '/assets/image/menu2.jpg'
       }, {
         text: 'VENUES',
         link: '',
-        icon: '../../assets/image/menu3.svg'
+        icon: '/assets/image/menu3.svg'
       },{
         text: 'POSTS',
         link: '',
-        icon: '../../assets/image/menu4.jpg'
+        icon: '/assets/image/menu4.jpg'
       },{
         text: 'RATINGS & REVIEWS',
         link: '',
-        icon: '../../assets/image/menu5.jpg'
+        icon: '/assets/image/menu5.svg'
       },{
         text: 'DASHBOARD',
         link: '',
-        icon: '../../assets/image/menu6.jpg'
+        icon: '/assets/image/menu6.svg'
       }, ]
     }
   }
@@ -117,7 +117,7 @@ class Header extends React.Component {
           </NavbarGroup>
           <div id="menu" className={this.state.isOpen ? 'isopen' : ''} ref={this.setWrapperRef}>
             <div className="side-nav-logo">
-              Hello
+              Rovo Logo
             </div>
             <MenuLinks menuStatus={ menuStatus }/>
           </div>

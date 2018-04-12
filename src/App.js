@@ -8,13 +8,21 @@ import SignUp from './containers/SignUpContainer/SignUp'
 import Login from './containers/LoginContainer/Login'
 import Navbar from './components/Navbar/Navbar'
 import About from './containers/About/About'
+// import Dashboard from './containers/Dashboard/Dashboard'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <About/>
-      </div>
+      <Router>        
+        <div className="App">
+          {/* <Route exact path="/" component={Dashboard} /> */}
+          <Route path="/login" component={Login} />
+          <Route path="/signup" component={SignUp}/>
+          <Route path="/about" component={About}/>
+          <About />
+        </div>
+      </Router>
     );
   }
 }
