@@ -1,6 +1,7 @@
 #about{
     background-color: #fafafa;
     color: #667190;
+    padding: 100px 0px;
 }
 
 #about h1{
@@ -39,7 +40,6 @@
 
 #aboutpage{
     max-width: 730px;
-    margin: 50px auto;
 }
 
 .aboutbox{

@@ -8,7 +8,8 @@ import SignUp from './containers/SignUpContainer/SignUp'
 import Login from './containers/LoginContainer/Login'
 import Navbar from './components/Navbar/Navbar'
 import About from './containers/About/About'
-// import Dashboard from './containers/Dashboard/Dashboard'
+import Dashboard from './containers/Dashboard/Dashboard'
+import Contact from './containers/ContactContainer/Contact'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 class App extends Component {
@@ -16,11 +17,11 @@ class App extends Component {
     return (
       <Router>        
         <div className="App">
-          {/* <Route exact path="/" component={Dashboard} /> */}
           <Route path="/login" component={Login} />
           <Route path="/signup" component={SignUp}/>
           <Route path="/about" component={About}/>
-          <About />
+          <Route path="/contact" component={Contact}/>
+          <Route path="/dashboard" component={Dashboard} />
         </div>
       </Router>
     );
