@@ -1,0 +1,73 @@
+#venues{
+    background-color: #fafafa;
+    color: #667190;
+    padding: 100px 0px;
+}
+
+#venuespage{
+    max-width: 730px;
+}
+
+#venues h1{
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #667190;
+}
+
+#venues h2{
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #667190;
+}
+
+.button span{
+    color: #06bebd !important;
+}
+
+.button button{
+    padding: 7px 15px !important;
+}
+
+.button{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: center;
+    
+}
+
+.media-photo div{
+    float:left;
+    height: 136px;
+    width: 205px;
+    border: dashed 1px #d4dade;
+}
+
+.media-photo div:nth-child(even){
+    margin: 10px 5px;
+}
+
+.add-photo{
+    display: table;
+    text-align: center;
+    border-radius: 4px;
+    border: dashed 1px #d4dade;
+}
+
+.add-photo span{
+    display: table-cell;
+    vertical-align: middle;
+}

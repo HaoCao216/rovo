@@ -1,0 +1,15 @@
+.TextBox{
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #e9eef1;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.TextBox span{
+   
+}
+
+.logo-edit{
+    display: inline-block;
+}

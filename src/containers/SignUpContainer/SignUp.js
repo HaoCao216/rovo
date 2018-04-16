@@ -1,18 +1,18 @@
-import '../SignUpContainer/SignUp.css'
+import './SignUp.css'
 import React, {Component} from 'react'
 
-import Login from '../../components/Login/Login'
+import SignUp from '../../components/SignUp/SignUp'
 import LoginFb from '../../components/LoginFb/LoginFb'
 
-class LoginPage extends Component {
+class SignUpPage extends Component {
   render() {
     return (
       <div className="login-section">
         <div className="col-md-6 login-section-left">
-          <Login/>
+          <SignUp/>
           <LoginFb/>
           <div className="Rovoaccount">
-            Sign up for a Rovo account
+            Log in to your Rovo account
           </div>
         </div>
         <div className="col-md-6 login-section-right">
@@ -23,4 +23,4 @@ class LoginPage extends Component {
   }
 }
 
-export default LoginPage
+export default SignUpPage

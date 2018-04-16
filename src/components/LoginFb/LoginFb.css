@@ -1,0 +1,25 @@
+.or-line,.forgot-pass{
+    margin: 25px;
+    position: relative;
+    color: #adbbc4;
+}
+
+
+.or-line::before{
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 1px;
+    bottom: 7px;
+    left: -14px;
+    background-color: #adbbc4;
+}
+.or-line::after{
+    content:'';
+    position: absolute;
+    width: 110px;
+    height: 1px;;
+    bottom: 7px;
+    right: -14px;
+    background-color: #adbbc4;
+}
