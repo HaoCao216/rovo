@@ -14,11 +14,12 @@
 }
 
 #dashboardpage{
-    height: -webkit-fill-available;
+    height:  100%;
     background-color: #fafafa;
 }
 
 #dashboard{ 
+    
     padding-top: 80px;
 }
 
@@ -74,3 +75,5 @@
 .active{
     background-color: #ffffff !important;
 }
+
+

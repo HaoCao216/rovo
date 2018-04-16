@@ -143,3 +143,11 @@ textarea {
     border: solid 1px #e9eef1;
     padding: 10px 20px;
 }
+
+#brand-info{
+    -webkit-transition: height .2s cubic-bezier(.4,1,.75,.9);
+    transition: height .2s cubic-bezier(.4,1,.75,.9)
+}
+.pt-collapse{
+    margin: 0px !important;
+}
