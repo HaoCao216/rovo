@@ -1,0 +1,117 @@
+
+.left-menu ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #888888;
+    line-height: 41px
+}
+
+.left-menu ul li i{
+	min-width: 32px;
+	margin-right: 5px;
+     vertical-align: text-bottom;
+	font-size: 25px;
+}
+
+/*.menu-list{
+	border-right: 1px solid red;
+}*/
+
+.right-tab{
+	border-left: 1px solid #edeff7;
+	padding-left: 0px !important;
+}
+
+.title-menu{
+	padding: 15px;
+	border-bottom: 1px solid #edeff7;
+}
+
+.inside-tab{
+	padding: 15px 0px;
+}
+
+.add-card-input div p{
+	font-family: Open Sans;
+    font-size: 14px;
+    color: #202020;
+    margin-bottom: 13px;
+    font-weight: bold;
+
+}
+
+.add-card-input div input::placeholder{
+	color: gray;
+}
+
+.add-card-input div input{
+
+	display: block;
+	padding: 15px 10px;
+	width: 100%;
+    border: 2px solid #e8ecec;
+    border-radius: 4px;
+}
+
+.add-card-input button:hover{
+	background: #fb236a;
+	color: #fff;
+}
+
+.table-add-card p{
+    width: 100%;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #202020;
+    font-weight: bold;
+}
+
+.add-card-input button{
+	    float: right;
+    background: #ffffff;
+    border: 2px solid #fb236a;
+    color: #202020;
+    font-family: Open Sans;
+    font-size: 15px;
+    padding: 11px 40px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.chose{
+	border: 2px solid #e8ecec;
+    border-radius: 4px;
+	color: gray;
+	height: 50px; 
+}
+
+table tr:first-child{
+	background: #f4f3fb;
+	padding: 15px 0px;
+}
+
+table tr td{
+	padding: 25px 0px !important;
+	color: #575962;
+	font-weight: bold;
+}
+
+table tr td,tr th{
+	text-align: center;
+}
+.search-table-outter { overflow-x: scroll; }
+
+
+.inside-tab-add-card{
+	padding: 15px;
+}
+
+.icon-money{
+	    font-size: 250px;
+    color: gainsboro;
+    text-align: center;
+}
