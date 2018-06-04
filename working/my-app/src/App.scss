@@ -1,0 +1,10 @@
+$primary-size: 25px;
+$primary-color: red;
+
+.block { 
+  color: $primary-color;
+  &__text {
+    color: green;
+    font-size: $primary-size;
+  }
+}
